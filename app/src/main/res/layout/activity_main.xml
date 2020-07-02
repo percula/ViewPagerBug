@@ -60,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="Width = 0dp (determined by ConstraintLayout). \nlayout_constraintWidth_max = 400dp \nBug will appear on screens less than 400dp wide"
+                android:text="layout_width = match_parent \nNo bug"
                 android:textColor="#000"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
